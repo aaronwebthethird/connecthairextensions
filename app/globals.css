@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDFCFB;
+  --foreground: #1F1F1F;
+  --fake: #123D35;
+  --fake-light: #1B5A4E;
+  --fake-lighter: #257165;
+  --cream: #F8F5F2;
+  --beige-light: #FDFCFB;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-fake: var(--fake);
+  --color-fake-light: var(--fake-light);
+  --color-fake-lighter: var(--fake-lighter);
+  --color-cream: var(--cream);
+  --color-beige-light: var(--beige-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hover effects */
+.hover-fake:hover {
+  background-color: #1B5A4E !important;
+}
+
+.hover-fake-light:hover {
+  background-color: #257165 !important;
+}
+
+.hover-bg-cream:hover {
+  background-color: #F8F5F2 !important;
+}
+
+.btn-fake {
+  background-color: #123D35;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.btn-fake:hover {
+  background-color: #1B5A4E;
+}
+
+.btn-fake-outline {
+  background-color: white;
+  color: #123D35;
+  border: 2px solid #123D35;
+  transition: all 0.2s ease;
+}
+
+.btn-fake-outline:hover {
+  background-color: #F8F5F2;
 }
