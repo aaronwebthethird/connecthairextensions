@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Connect Hair Extensions - Premium Hair Extensions Since 2011",
+    default: "Connect Hair Extensions - Hair Extensions Guides & Reviews",
     template: "%s | Connect Hair Extensions"
   },
   description: "Premium hair extensions trusted by celebrities and featured in Cosmopolitan. Clip-in, tape-in, and ponytail extensions with professional installation available.",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://connecthairextensions.com",
     siteName: "Connect Hair Extensions",
-    title: "Connect Hair Extensions - Premium Hair Extensions",
-    description: "Premium hair extensions trusted by celebrities since 2011. Professional quality and expert installation.",
+    title: "Connect Hair Extensions - Hair Extensions Guides & Reviews",
+    description: "Premium hair extensions guides and reviews.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Connect Hair Extensions",
-    description: "Premium hair extensions trusted by celebrities since 2011.",
+    title: "Connect Hair Extensions - Hair Extensions Guides & Reviews",
+    description: "Premium hair extensions guides and reviews.",
   },
   robots: {
     index: true,
