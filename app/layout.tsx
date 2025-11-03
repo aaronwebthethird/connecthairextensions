@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   },
   description: "Premium hair extensions trusted by celebrities and featured in Cosmopolitan. Clip-in, tape-in, and ponytail extensions with professional installation available.",
   keywords: ["hair extensions", "clip-in extensions", "ponytail extensions", "tape-in extensions", "human hair extensions", "celebrity hair extensions"],
+  icons: {
+    icon: "/favicon.ico",
+  },
   authors: [{ name: "Connect Hair Extensions" }],
   openGraph: {
     type: "website",
