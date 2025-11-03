@@ -1,4 +1,18 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Hair Extensions: Educational Resources & Guides',
+  description: 'Comprehensive, unbiased information about hair extensions - from temporary clip-ins to permanent keratin bonds. Make informed decisions about your hair.',
+  alternates: {
+    canonical: 'https://www.connecthairextensions.com/'
+  },
+  openGraph: {
+    title: 'Hair Extensions: Educational Resources & Guides',
+    description: 'Comprehensive, unbiased information about hair extensions.',
+    type: 'website',
+  }
+};
 
 export default function Home() {
   return (

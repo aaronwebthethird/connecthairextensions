@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Permanent Hair Extensions Guide - Keratin Bonds & Micro Rings',
   description: 'Complete educational guide to permanent hair extensions including keratin bonds and micro rings. Learn about professional installation, care, costs, and what to expect.',
+  alternates: {
+    canonical: 'https://www.connecthairextensions.com/permanent-hair-extensions'
+  },
   openGraph: {
     title: 'Permanent Hair Extensions Guide - Professional Methods Explained',
     description: 'Expert guide to keratin bonds, micro rings, and permanent hair extension methods.',

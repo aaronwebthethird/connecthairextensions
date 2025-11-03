@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Clip-In Hair Extensions Guide - Types, Application & Care',
   description: 'Complete educational guide to clip-in hair extensions. Learn about different types, how to apply them, care instructions, and what to expect.',
+  alternates: {
+    canonical: 'https://www.connecthairextensions.com/hair-clip-extensions-products'
+  },
   openGraph: {
     title: 'Clip-In Hair Extensions - Complete Educational Guide',
     description: 'Learn everything about clip-in extensions, from application to care and maintenance.',

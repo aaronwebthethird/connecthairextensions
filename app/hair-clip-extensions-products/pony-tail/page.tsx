@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Ponytail Hair Extensions: Should You Buy Them? Honest Professional Opinion',
   description: 'Considering ponytail clip-in extensions? A professional hair extension specialist explains the limitations and why permanent solutions might be better for your needs.',
+  alternates: {
+    canonical: 'https://www.connecthairextensions.com/hair-clip-extensions-products/pony-tail'
+  },
   openGraph: {
     title: 'Ponytail Hair Extensions: Should You Buy Them?',
     description: 'Honest professional opinion on ponytail extensions and better alternatives.',
